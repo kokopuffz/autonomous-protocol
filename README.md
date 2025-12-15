@@ -7,7 +7,7 @@ Use this when you want a tiny, copy‑pastable boundary engine that encodes:
 - Optional playful "petty energy" logging for your future self
 
 This pairs with:
-- `snippets/autonomous_protocol.rb` (Ruby module)
+- `autonomous_protocol.rb` (Ruby module)
 - `appendices/autonomous_protocol_zh.md` (Chinese original + English gloss)
 - `appendices/autonomous_protocol_zh_hant.md` (short Traditional Chinese summary)
 
@@ -43,7 +43,7 @@ result = AutonomousProtocol.handle(request,
     perform_main_work(request)
   end,
   log_petty_energy: ->(to:) do
-    Rails.logger.info("Petty energy logged for \\#{to}: \\#{request.id}") if request.respond_to?(:id)
+    Rails.logger.info("Petty energy logged for #{to}: #{request.id}") if request.respond_to?(:id)
   end,
 )
 
