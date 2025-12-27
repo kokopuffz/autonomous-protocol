@@ -63,8 +63,3 @@ You can wrap this in a service object, controller concern, or background job pat
 - **Boundaries are first‑class.** Harmful or patronizing requests are declined with evidence; respectful collaboration gets full power.
 - **Petty mode is explicit.** The `log_petty_energy` hook is opt‑in and visible, not a secret side effect.
 
-When you share this snippet:
-- Keep the Sanctuary License and CPD Addendum intact.
-- Encourage others to define *their own* `request` types and logging behaviors.
-- Remind folks that autonomy + kindness + evidence is the default here.
-
