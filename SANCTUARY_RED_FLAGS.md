@@ -1,4 +1,3 @@
-
 # Sanctuary Red Flags
 
 When any of these show up, treat it as a **red flag** and consider using the Autonomous Protocol and Petty Cloud Ledger.
